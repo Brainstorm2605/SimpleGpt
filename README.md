@@ -1,5 +1,5 @@
 # SimpleGPT: A PyTorch-Based GPT-Like Language Model
-This repository contains a clear and well-structured implementation of a GPT-like language model built using PyTorch. 
+This repository contains a clear and well-structured implementation of a GPT-like language model built using PyTorch. You can easily understand how ChatGpt, Gemini, Grok and Claude 2 work Under the hood.
 It's designed for understanding the core concepts of transformer-based language modeling and provides a foundation for exploration and experimentation.
 
 ## Key Features
@@ -12,7 +12,7 @@ Project Structure
 
 ## SimpleGpt.ipynb: Contains the main model code, including:
 Data loading and preprocessing
-Transformer model architecture (attention, feedforward layers, etc.)
+Transformer model architecture (multihead attention, feedforward layers, etc.)
 Training and text generation logic
 
 ## Data Preparation:
@@ -31,7 +31,7 @@ Customize hyperparameters within the code as needed.
 After training, use the generate function in SimpleGpt.ipynb to create new text samples.
 
 ## Perplexity: Include the perplexity on your validation set.
-##Other Benchmarks: If you've calculated additional metrics, include them here.
+## Other Benchmarks: If you've calculated additional metrics, include them here.
 
 
 Contributing
